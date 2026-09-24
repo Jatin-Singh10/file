@@ -1,0 +1,245 @@
+{
+  "target": "Depression",
+  "best_model_name": "Logistic Regression",
+  "best_threshold": 0.22000000000000003,
+  "feature_columns": [
+    "Gender",
+    "Age",
+    "City",
+    "Profession",
+    "Academic Pressure",
+    "Work Pressure",
+    "CGPA",
+    "Study Satisfaction",
+    "Job Satisfaction",
+    "Sleep Duration",
+    "Dietary Habits",
+    "Degree",
+    "Have you ever had suicidal thoughts ?",
+    "Work/Study Hours",
+    "Financial Stress",
+    "Family History of Mental Illness",
+    "Academic_Strain",
+    "Low_Study_Satisfaction",
+    "Workload_Burden",
+    "Financial_Academic_Strain",
+    "Sleep_Hours_Approx",
+    "Sleep_Work_Imbalance"
+  ],
+  "numeric_columns": [
+    "Age",
+    "Academic Pressure",
+    "Work Pressure",
+    "CGPA",
+    "Study Satisfaction",
+    "Job Satisfaction",
+    "Work/Study Hours",
+    "Financial Stress",
+    "Academic_Strain",
+    "Low_Study_Satisfaction",
+    "Workload_Burden",
+    "Financial_Academic_Strain",
+    "Sleep_Hours_Approx",
+    "Sleep_Work_Imbalance"
+  ],
+  "categorical_columns": [
+    "Gender",
+    "City",
+    "Profession",
+    "Sleep Duration",
+    "Dietary Habits",
+    "Degree",
+    "Have you ever had suicidal thoughts ?",
+    "Family History of Mental Illness"
+  ],
+  "final_test_metrics": {
+    "Accuracy": 0.8069756330625896,
+    "Balanced Accuracy": 0.7751446507159931,
+    "Precision": 0.7676767676767676,
+    "Recall": 0.9612403100775194,
+    "F1": 0.8536231884057971,
+    "ROC-AUC": 0.9167498533210582,
+    "PR-AUC": 0.9355077394421473,
+    "MCC": 0.6128969129270873,
+    "Brier": 0.1122299053331051
+  },
+  "categorical_options": {
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "City": [
+      "3.0",
+      "Agra",
+      "Ahmedabad",
+      "Bangalore",
+      "Bhavna",
+      "Bhopal",
+      "Chennai",
+      "City",
+      "Delhi",
+      "Faridabad",
+      "Gaurav",
+      "Ghaziabad",
+      "Harsh",
+      "Harsha",
+      "Hyderabad",
+      "Indore",
+      "Jaipur",
+      "Kalyan",
+      "Kanpur",
+      "Khaziabad",
+      "Kibara",
+      "Kolkata",
+      "Less Delhi",
+      "Less than 5 Kalyan",
+      "Lucknow",
+      "Ludhiana",
+      "M.Com",
+      "M.Tech",
+      "ME",
+      "Meerut",
+      "Mihir",
+      "Mira",
+      "Mumbai",
+      "Nagpur",
+      "Nalini",
+      "Nalyan",
+      "Nandini",
+      "Nashik",
+      "Patna",
+      "Pune",
+      "Rajkot",
+      "Rashi",
+      "Reyansh",
+      "Saanvi",
+      "Srinagar",
+      "Surat",
+      "Thane",
+      "Vaanya",
+      "Vadodara",
+      "Varanasi",
+      "Vasai-Virar",
+      "Visakhapatnam"
+    ],
+    "Profession": [
+      "Architect",
+      "Chef",
+      "Civil Engineer",
+      "Content Writer",
+      "Digital Marketer",
+      "Doctor",
+      "Educational Consultant",
+      "Entrepreneur",
+      "Lawyer",
+      "Manager",
+      "Pharmacist",
+      "Student",
+      "Teacher",
+      "UX/UI Designer"
+    ],
+    "Sleep Duration": [
+      "5-6 hours",
+      "7-8 hours",
+      "Less than 5 hours",
+      "More than 8 hours",
+      "Others"
+    ],
+    "Dietary Habits": [
+      "Healthy",
+      "Moderate",
+      "Others",
+      "Unhealthy"
+    ],
+    "Degree": [
+      "B.Arch",
+      "B.Com",
+      "B.Ed",
+      "B.Pharm",
+      "B.Tech",
+      "BA",
+      "BBA",
+      "BCA",
+      "BE",
+      "BHM",
+      "BSc",
+      "Class 12",
+      "LLB",
+      "LLM",
+      "M.Com",
+      "M.Ed",
+      "M.Pharm",
+      "M.Tech",
+      "MA",
+      "MBA",
+      "MBBS",
+      "MCA",
+      "MD",
+      "ME",
+      "MHM",
+      "MSc",
+      "Others",
+      "PhD"
+    ],
+    "Have you ever had suicidal thoughts ?": [
+      "No",
+      "Yes"
+    ],
+    "Family History of Mental Illness": [
+      "No",
+      "Yes"
+    ]
+  },
+  "numeric_ranges": {
+    "Age": [
+      18.0,
+      59.0
+    ],
+    "Academic Pressure": [
+      0.0,
+      5.0
+    ],
+    "Work Pressure": [
+      0.0,
+      5.0
+    ],
+    "CGPA": [
+      0.0,
+      10.0
+    ],
+    "Study Satisfaction": [
+      0.0,
+      5.0
+    ],
+    "Job Satisfaction": [
+      0.0,
+      4.0
+    ],
+    "Work/Study Hours": [
+      0.0,
+      12.0
+    ],
+    "Financial Stress": [
+      1.0,
+      5.0
+    ]
+  },
+  "raw_input_columns": [
+    "Gender",
+    "Age",
+    "City",
+    "Profession",
+    "Academic Pressure",
+    "Work Pressure",
+    "CGPA",
+    "Study Satisfaction",
+    "Job Satisfaction",
+    "Sleep Duration",
+    "Dietary Habits",
+    "Degree",
+    "Have you ever had suicidal thoughts ?",
+    "Work/Study Hours",
+    "Financial Stress",
+    "Family History of Mental Illness"
+  ]
+}
